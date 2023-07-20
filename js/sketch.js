@@ -17,12 +17,6 @@ function setup() {
     personagem = loadImage('img/personagem.png')
     grama = loadImage('img/grass.png')
     boss = loadImage('img/Boss.png')
-
-    if (createCanvas) {
-        restart = createButton('Iniciar')
-        restart.position(256, 288)
-        restart.mousePressed(reset)
-    }
 }
 
 
